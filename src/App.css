@@ -1,0 +1,67 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image:linear-gradient(79deg,rgb(77, 110, 118), rgb(167, 167, 220),rgb(209, 104, 209));
+}
+
+.auth-container, .form-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container{
+  padding-top: 1rem;
+}
+
+@media screen and (min-width:600px) {
+  .auth-container {
+    padding: 5rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0.5rem 0;
+  }
+}
+
+label {
+  text-align: left;
+  padding: 0.5rem 0;
+  
+}
+
+input {
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border: none;
+  border-radius: 10px;
+  
+}
+
+button {
+  border: none;
+  border-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  /* margin: 0.5rem; */
+  cursor: pointer;
+}
+
+.btn{
+  border: none;
+  margin: 0.5rem;
+  text-decoration: underline;
+  background: none;
+}
+
+.btn:hover{
+  font-weight: 600;
+}
+
+
